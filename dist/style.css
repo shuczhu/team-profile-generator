@@ -1,0 +1,53 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-color: rgb(114, 78, 197);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 5%;
+}
+
+.card {
+    border: black 1px solid;
+    width: 250px;
+    background-color: rgb(235, 231, 231);
+    box-shadow: 5px 10px 15px;
+    margin: 10px;
+
+}
+
+.card-header {
+    background-color: rgb(114, 78, 197);
+    padding: 2px 10px;
+    color: white;
+}
+
+.card-info {
+    height: 200px;
+    position: relative;
+}
+
+.card-info-container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.card-info-container p {
+    background-color: white;
+    height: 30px;
+    width: 200px;
+    margin: 3px;
+    padding: 10px 0px 0px 5px;    
+}
